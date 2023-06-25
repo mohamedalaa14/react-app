@@ -1,0 +1,74 @@
+.page
+{
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(35,39,47) ;
+    height: 60vh;
+
+}
+
+
+.card1
+{
+    width: 46%;
+    border: 10px solid white ;
+    border-radius:20px ;
+    margin:auto ;
+    height: 60%;
+
+}
+.card2
+{
+    width: 48%;
+
+    border: 10px solid black;
+    border-radius:20px ;
+    background-color: rgb(37,41,50)!important;
+    color: white!important;
+    height: 60%;
+    margin: auto;
+
+}
+.slider
+{
+    height: 250px;
+    margin: auto;
+    position: relative;
+    width: 90%;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+}
+.slidetrack
+{
+    display: flex;
+    width: calc(250px * 18);
+    animation: scroll 20s linear infinite;
+}
+@keyframes scroll {
+    0%{
+        transform: translateX(0);
+
+    }
+    100%{
+        transform: translateX(calc(-250px * 5));
+    }
+}
+.slide
+{
+    height: 200px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    perspective: 100px;
+
+}
+img 
+{
+    width: 100%;
+    transition: transform 1s;
+}
+img:hover{
+    transform: translateZ(20px);
+}

@@ -1,0 +1,61 @@
+.header
+{
+    background-color: rgb(55,65,81);
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-weight: 500;
+    
+}
+.header .link1
+{
+    color: rgb(20,158,202);
+    cursor: pointer;
+}
+
+.home 
+{
+    text-align: center;
+    padding-top: 100px;
+    height: 80vh;
+    font-weight: 400;
+    font-size: 30px;
+    color: white;
+    background-color: rgb(35,39,47);
+}
+.icon1
+{
+    font-size: 300px !important; 
+    color: white;
+    
+}
+.button1
+{
+    border-radius: 30px;
+    border: transparent;
+   background-color: rgb(8,126,164);
+    margin-right: 30px;
+    padding: 12px;
+    color: white;
+    cursor: pointer;
+    width: 15%;
+    ;
+    
+}
+.button2
+{
+    border-radius: 30px;
+    border: transparent;
+    background-color: transparent;
+    margin-right: 30px;
+    padding: 12px;
+    color: white;
+    cursor: pointer;
+    width: 15%;
+    border: solid rgb(54,60,73);
+    
+}
+.logo1
+{
+    width: 10%;
+}

@@ -1,0 +1,26 @@
+.format
+{
+    background-color: rgb(27,30,36);
+    text-align: center;
+}
+.title
+{
+    font-size: 52px;
+    font-weight: 600;
+}
+.p2
+{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 60px
+
+}
+.image
+{
+    height: 300px;
+    transition: 1s;
+}
+.image:hover
+{
+    scale: 1.2;
+}
