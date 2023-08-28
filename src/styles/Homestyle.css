@@ -42,6 +42,10 @@
     ;
     
 }
+.button1:hover{
+    background-color: rgb(8,126,164,.7);
+
+}
 .button2
 {
     border-radius: 30px;
@@ -55,6 +59,11 @@
     border: solid rgb(54,60,73);
     
 }
+.button2:hover{
+    background-color: rgb(54,60,73,.7);
+
+}
+
 .logo1
 {
     width: 10%;

@@ -40,6 +40,7 @@ function Community() {
         <SwiperSlide><img className='image'alt='react' src='Screenshot 2023-06-19 021757.png'/></SwiperSlide>
         <SwiperSlide><img className='image'alt='react' src='\Screenshot 2023-06-19 021848.png'/></SwiperSlide>
       </Swiper>
+      <p>This is why React is more than a library, an architecture, or even an ecosystem.<br></br> React is a community. It’s a place where you can ask for help, find opportunities,<br></br> and meet new friends. You will meet both developers and designers, beginners<br></br> and experts, researchers and artists, teachers and students. Our backgrounds<br></br> may be very different, but React lets us all create user interfaces together.</p>
 
 
         {/* <Slider {...settings}>

@@ -1,10 +1,10 @@
 .Navbar
 {
     width: 100%;
-    height: auto;
+    height:auto;
     background-color: rgb(35,39,48);
     display: flex;
-    justify-content: end;
+    justify-content: center;
     z-index: 99;
     
 
@@ -12,9 +12,20 @@
 
 .b1
 {
-    padding: 10px;
+    padding: 6px;
     margin: 10px;
-    border-radius: 20%;
+    border-radius: 25px;
+    border: solid transparent;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+.b2
+{
+    padding: 6px;
+    margin-top: 10px;
+    border-radius: 30px;
     border: solid transparent;
     background-color: transparent;
     color: white;
@@ -26,14 +37,15 @@
     background-color:rgb(55,65,81) ;
 
 }
+
 .search
 {
     background-color:rgb(51,58,69) ;
-    width: 60%;
+    width: 63%;
     margin: 10px;
     border-radius: 40px ;
-    border: 1px solid transparent;
-    padding: 20px;
+    border: 3px solid rgb(51,58,69);
+    padding: 5px;
     color: white;
 }
 .iconsearch
@@ -44,20 +56,64 @@
 .logo
 {
     width: 3%;
+    cursor: pointer;
    
 }
 
 .link
 {
     color: white;
-    margin-right: 20px;
+    margin-right: 10px;
     cursor: pointer;
 
 }
 .links
 {
-    padding: 20px;
-
-
+    margin-right: 10px;
     
+
+}
+.modal
+{
+   
+   
+    background-color: whitesmoke;
+}
+.search2{
+    background-color:rgb(51,58,69) ;
+    width: 63%;
+    margin: 10px;
+    border-radius: 40px ;
+    border: 3px solid transparent;
+    padding: 5px;
+    color: white;
+}
+.dark 
+{
+    background-color: black;
+
+}
+.dark div
+{
+    background-color: white;
+    color: black;
+}
+.dark button
+{
+    color: black;
+}
+.dark div h3
+{
+    background-color: white;
+    color: black;
+}
+
+.dark input 
+{
+    background-color: rgb(235,236,240);
+}
+
+.dark #link
+{
+    color: black;
 }

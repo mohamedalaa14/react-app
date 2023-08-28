@@ -1,0 +1,15 @@
+#light {
+    background-color: white!important;
+}
+#dark {
+    background-color:rgb(35,39,48)!important ;
+}
+.dark 
+{
+    background-color: black;
+
+}
+.dark #Navbar
+{
+   background-color: black!important;
+}
